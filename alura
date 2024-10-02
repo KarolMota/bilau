@@ -1,0 +1,64 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #007bff;
+            color: white;
+        }
+        h1 {
+            margin: 0;
+        }
+        .portfolio-item {
+            background-color: white;
+            margin: 15px 0;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Meu Portfólio</h1>
+    <p>Bem-vindo ao meu espaço criativo!</p>
+</header>
+
+<main>
+    <div class="portfolio-item">
+        <h2>Projeto 1: Site Pessoal</h2>
+        <p>Descrição breve sobre o projeto. Tecnologias usadas: HTML, CSS, JavaScript.</p>
+    </div>
+    <div class="portfolio-item">
+        <h2>Projeto 2: Aplicativo de Tarefas</h2>
+        <p>Descrição breve sobre o projeto. Tecnologias usadas: React, Node.js.</p>
+    </div>
+    <div class="portfolio-item">
+        <h2>Projeto 3: Blog de Viagens</h2>
+        <p>Descrição breve sobre o projeto. Tecnologias usadas: WordPress, PHP.</p>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2024 Meu Nome. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
